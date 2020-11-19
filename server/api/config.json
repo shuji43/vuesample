@@ -1,0 +1,24 @@
+{
+    "development": {
+        "MAIL_FROM" : "sysop@zero-corp.co.jp",
+        "MAIL_HOST" : "mail.freemind.co.jp",
+        "MAIL_PORT" : "25",
+        "MAIL_USER" : "",
+        "MAIL_PASS" : "",
+        "MAIL_SECURE" : "",
+        "dbConfig" : {
+            "server": "zerodb",
+            "database": "sateidb_test",
+            "user": "sa",
+            "password": "zero",
+            "port": 1433,
+            "options": {
+              "encrypt": false,
+              "enableArithAbort": true
+            }
+          }
+    },
+    "production" : {
+        "host": "honban-server"
+    }
+}
